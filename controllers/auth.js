@@ -17,8 +17,8 @@ export const register = async (req, res, next) => {
         res.status(200).send("User has been created!")
     } catch (err) {
         next(err);
-    }
-}
+    };
+};
 
 export const login = async (req, res, next) => {
     try {
